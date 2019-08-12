@@ -13,3 +13,8 @@ The script requires R/W access to the USBTMC device created after the PM is plug
 
 
 The device is preset to /dev/usbtmc2, change this, if needed.
+
+# Usage
+`python3 readPower.py`
+
+Press Ctrl-C to stop acquisition.
