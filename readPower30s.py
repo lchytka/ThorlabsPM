@@ -27,8 +27,7 @@ with open(filename,"a") as file:
     file.write("\n######################################\n")
     file.write("# Date and time,\tPM value [W]\n")
 
-i=0
-while(True): 
+for i in range(30): 
     time = datetime.utcnow().strftime("%Y/%m/%d %H:%M:%S")
     meas = power_meter.read
     with open(filename,"a") as file:
