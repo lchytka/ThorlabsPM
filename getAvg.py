@@ -8,7 +8,7 @@ Created on Tue May 19 13:31:51 2020
 
 import numpy as np
 
-filename = "C2test_vlakno2_plny.txt"
+filename = "C2test_vlakno2_podstred_3.txt"
 
 file = np.loadtxt(filename, delimiter=" ", dtype='str')
 vals = file[:,2].astype('float')

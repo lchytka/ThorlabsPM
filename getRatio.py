@@ -8,8 +8,8 @@ Created on Tue May 19 13:31:51 2020
 
 import numpy as np
 
-filename1 = "C2test_vlakno1_nizsi.txt"
-filename2 = "C2test_vlakno2_nizsi.txt"
+filename1 = "C2test_vlakno1_podstred_3.txt"
+filename2 = "C2test_vlakno2_podstred_3.txt"
 
 file1 = np.loadtxt(filename1, delimiter=" ", dtype='str')
 file2 = np.loadtxt(filename2, delimiter=" ", dtype='str')
